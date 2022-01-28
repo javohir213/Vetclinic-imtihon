@@ -1,0 +1,1935 @@
+/* livvic-regular - latin */
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/FuturaPT-Book.woff2") format("woff2"), url("../fonts/FuturaPT-Book.woff2") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* livvic-500 - latin */
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/FuturaPT-Medium.woff2") format("woff2"), url("../fonts/FuturaPT-Medium.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* livvic-600 - latin */
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/FuturaPT-Light.woff2") format("woff2"), url("../fonts/FuturaPT-Light.woff1") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* livvic-700 - latin */
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/FuturaPT-Bold.woff2") format("woff2"), url("../fonts/FuturaPT-Bold.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+========================================================================== */
+/**
+* 1. Correct the line height in all browsers.
+* 2. Prevent adjustments of font size after orientation changes in iOS.
+*/
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+========================================================================== */
+/**
+* Remove the margin in all browsers.
+*/
+body {
+  margin: 0;
+}
+
+/**
+* Render the `main` element consistently in IE.
+*/
+main {
+  display: block;
+}
+
+/**
+* Correct the font size and margin on `h1` elements within `section` and
+* `article` contexts in Chrome, Firefox, and Safari.
+*/
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+========================================================================== */
+/**
+* 1. Add the correct box sizing in Firefox.
+* 2. Show the overflow in Edge and IE.
+*/
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+* 1. Correct the inheritance and scaling of font size in all browsers.
+* 2. Correct the odd `em` font sizing in all browsers.
+*/
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+========================================================================== */
+/**
+* Remove the gray background on active links in IE 10.
+*/
+a {
+  background-color: transparent;
+}
+
+/**
+* 1. Remove the bottom border in Chrome 57-
+* 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+*/
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+* Add the correct font weight in Chrome, Edge, and Safari.
+*/
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+* 1. Correct the inheritance and scaling of font size in all browsers.
+* 2. Correct the odd `em` font sizing in all browsers.
+*/
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+* Add the correct font size in all browsers.
+*/
+small {
+  font-size: 80%;
+}
+
+/**
+* Prevent `sub` and `sup` elements from affecting the line height in
+* all browsers.
+*/
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+========================================================================== */
+/**
+* Remove the border on images inside links in IE 10.
+*/
+img {
+  border-style: none;
+}
+
+/* Forms
+========================================================================== */
+/**
+* 1. Change the font styles in all browsers.
+* 2. Remove the margin in Firefox and Safari.
+*/
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+* Show the overflow in IE.
+* 1. Show the overflow in Edge.
+*/
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+* Remove the inheritance of text transform in Edge, Firefox, and IE.
+* 1. Remove the inheritance of text transform in Firefox.
+*/
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+* Correct the inability to style clickable types in iOS and Safari.
+*/
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+* Remove the inner border and padding in Firefox.
+*/
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+* Restore the focus styles unset by the previous rule.
+*/
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+* Correct the padding in Firefox.
+*/
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+* 1. Correct the text wrapping in Edge and IE.
+* 2. Correct the color inheritance from `fieldset` elements in IE.
+* 3. Remove the padding so developers are not caught out when they zero out
+*    `fieldset` elements in all browsers.
+*/
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+* Add the correct vertical alignment in Chrome, Firefox, and Opera.
+*/
+progress {
+  vertical-align: baseline;
+}
+
+/**
+* Remove the default vertical scrollbar in IE 10+.
+*/
+textarea {
+  overflow: auto;
+}
+
+/**
+* 1. Add the correct box sizing in IE 10.
+* 2. Remove the padding in IE 10.
+*/
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+* Correct the cursor style of increment and decrement buttons in Chrome.
+*/
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+* 1. Correct the odd appearance in Chrome and Safari.
+* 2. Correct the outline style in Safari.
+*/
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+* Remove the inner padding in Chrome and Safari on macOS.
+*/
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+* 1. Correct the inability to style clickable types in iOS and Safari.
+* 2. Change font properties to `inherit` in Safari.
+*/
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+========================================================================== */
+/*
+* Add the correct display in Edge, IE 10+, and Firefox.
+*/
+details {
+  display: block;
+}
+
+/*
+* Add the correct display in all browsers.
+*/
+summary {
+  display: list-item;
+}
+
+/* Misc
+========================================================================== */
+/**
+* Add the correct display in IE 10+.
+*/
+template {
+  display: none;
+}
+
+/**
+* Add the correct display in IE 10.
+*/
+[hidden] {
+  display: none;
+}
+
+html {
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Arial', 'sans-serif';
+  margin: 0;
+  padding: 0;
+  background-color: #F9F8F8;
+  background-image: url(../img/body-bg.png);
+  background-repeat: no-repeat;
+  background-position: calc(50%) calc(50%);
+  /* background-size: 100%; */
+  font-family: "Futura PT", sans-serif;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1360px;
+  padding: 0px 20px;
+  margin: 0px auto;
+}
+
+.site-header__first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  padding: 10px 0px;
+}
+
+.address {
+  margin-right: 130px;
+  position: relative;
+  z-index: 1;
+}
+
+.address::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/uy.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 14px;
+  height: 13px;
+  left: -22px;
+  top: 2px;
+}
+
+.address__link {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333333;
+  text-decoration: none;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.address__link:hover {
+  color: #FFBD54;
+}
+
+.address__link:active {
+  color: #333333;
+  opacity: 0.6;
+}
+
+.tel-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 120px;
+  position: relative;
+  z-index: 1;
+}
+
+.tel-list::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/telephone.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 13px;
+  height: 13px;
+  left: -22px;
+  top: 2px;
+}
+
+.tel-list__item {
+  list-style: none;
+}
+
+.tel-list__item:nth-child(2) {
+  margin: 0px 22px;
+  position: relative;
+  z-index: 1;
+}
+
+.tel-list__item:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/ellepsi.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 4px;
+  height: 4px;
+  left: -12px;
+  top: 8px;
+}
+
+.tel-list__item:nth-child(2)::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/ellepsi.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 4px;
+  height: 4px;
+  right: -10px;
+  top: 8px;
+}
+
+.tel-list__link {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  text-decoration: none;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.tel-list__link:hover {
+  color: #FFBD54;
+}
+
+.tel-list__link:active {
+  color: #333333;
+  opacity: 0.6;
+}
+
+.site-header__time-case {
+  position: relative;
+  z-index: 1;
+}
+
+.site-header__time-case::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/kalkulator.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 13px;
+  height: 13px;
+  left: -20px;
+  top: 4px;
+}
+
+.site-header__time {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.time-b {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.site-header__time + .site-header__time {
+  margin-left: 17px;
+}
+
+.header__inner {
+  background-color: #fff;
+  border: 1px solid #F3F3F3;
+  padding: 20px 0px;
+}
+
+.header__inner-inside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  position: relative;
+  z-index: 1;
+}
+
+.header__logo-link {
+  position: absolute;
+  z-index: 2;
+  left: calc(50% - 660px);
+  top: calc(50% - 45px);
+}
+
+.header__logo-link:hover {
+  opacity: 0.8;
+}
+
+.header__logo-link:active {
+  opacity: 0.6;
+}
+
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px;
+  margin-right: 195px;
+  padding: 0px;
+  position: relative;
+  z-index: 1;
+}
+
+.list::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/fish.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+  left: -30px;
+  top: -2px;
+}
+
+.list__item {
+  list-style: none;
+}
+
+.list__item + .list__item {
+  margin-left: 55px;
+}
+
+.list__link {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  text-decoration: none;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.list__link:hover {
+  border-bottom: 4px solid #f4ffad;
+}
+
+.list__link:active {
+  opacity: 0.6;
+}
+
+.header__question-link {
+  text-decoration: none;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: right;
+  color: #333333;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  border-bottom: 4px solid transparent;
+}
+
+.header__question-link:hover {
+  border-bottom: 4px solid #f4ffad;
+}
+
+.header__question-link:active {
+  opacity: 0.6;
+}
+
+.header__question-link::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/pet.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+  left: -28px;
+  top: -1px;
+}
+
+.site-hero {
+  background-image: url(../img/hero-bg1.png), url(../img/hero-bg2.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 530px) calc(50% - 70px), calc(50% + 690px) calc(50% + 200px);
+  padding: 155px 0px 310px 0px;
+}
+
+.site-hero__inside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.site-hero__inside-case {
+  margin-left: auto;
+}
+
+.site-hero__title-case {
+  width: 610px;
+  margin-bottom: 30px;
+}
+
+.site-hero__title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+  margin: 0px;
+}
+
+.site-hero__title-blue {
+  color: #78C0DE;
+}
+
+.site-hero__description-case {
+  width: 495px;
+  margin-bottom: 38px;
+}
+
+.site-hero__description {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  margin: 0px;
+  color: #949494;
+}
+
+.site-hero__link {
+  display: inline-block;
+  background-color: #333333;
+  border-radius: 3px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 15px 48px;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.site-hero__link:hover {
+  color: #333333;
+  background-color: #FFBD54;
+}
+
+.site-hero__link:active {
+  opacity: 0.6;
+}
+
+.intro__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 45px;
+  padding-bottom: 90px;
+}
+
+.intro__inner {
+  margin: 0px auto;
+  width: 755px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.intro__inner::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/line.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 140px;
+  height: 2px;
+  left: 320px;
+  top: -45px;
+}
+
+.intro__inner::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/line.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 140px;
+  height: 2px;
+  left: 320px;
+  top: 110px;
+}
+
+.intro__quote {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #949494;
+  margin: 0px;
+  margin-bottom: 70px;
+}
+
+.intro__quote::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/open.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 51px;
+  height: 42px;
+  left: -100px;
+  top: -25px;
+}
+
+.intro__quote::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/close.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 51px;
+  height: 42px;
+  right: -100px;
+  bottom: 90px;
+}
+
+.intro__text {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
+
+.servises__inner {
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 70px;
+  position: relative;
+  z-index: 1;
+}
+
+.servises__button {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 1;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  top: 300px;
+  left: -60px;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.servises__button:hover {
+  background-color: #fff;
+}
+
+.servises__button:active {
+  opacity: 0.8;
+}
+
+.servises__button-right {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 1;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  top: 300px;
+  right: -60px;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.servises__button-right:hover {
+  background-color: #fff;
+}
+
+.servises__button-right:active {
+  opacity: 0.8;
+}
+
+.servises__hidden {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333333;
+  margin: 0px auto 80px;
+}
+
+.servises__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px auto;
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.servises__item {
+  width: 100%;
+  height: 100%;
+  max-width: 193px;
+  max-height: 200px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+  border: 1px solid #F3F3F3;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.servises__item:hover {
+  opacity: 0.8;
+}
+
+.servises__item:active {
+  opacity: 0.6;
+}
+
+.servises__item:nth-child(1) {
+  max-height: 215px;
+  border-bottom: none;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.servises__item:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/li1-doc.svg);
+  background-repeat: no-repeat;
+  width: 54px;
+  height: 77.45px;
+  top: 30px;
+}
+
+.servises__item:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/li2-medsis.svg);
+  background-repeat: no-repeat;
+  width: 61.4px;
+  height: 76.75px;
+  top: 30px;
+}
+
+.servises__item:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/li3-dog.svg);
+  background-repeat: no-repeat;
+  width: 75.95px;
+  height: 75.95px;
+  top: 30px;
+  width: 75.95px;
+  height: 75.95px;
+}
+
+.servises__item:nth-child(4)::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/li4-dermo.svg);
+  background-repeat: no-repeat;
+  width: 75.95px;
+  height: 75.95px;
+  top: 30px;
+}
+
+.servises__item:nth-child(5)::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/li5-lab.svg);
+  background-repeat: no-repeat;
+  width: 78px;
+  height: 78px;
+  top: 30px;
+}
+
+.servises__item:nth-child(6)::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/li6-plus.svg);
+  background-repeat: no-repeat;
+  width: 75.95px;
+  height: 75.95px;
+  top: 30px;
+}
+
+.servises__item-link {
+  display: block;
+  text-decoration: none;
+  padding: 129px 32px 28px 35px;
+}
+
+.servises__item-link--first {
+  padding-bottom: 42px;
+}
+
+.servises__item-title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #333333;
+  margin-top: auto;
+}
+
+.info-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  padding: 41px 105px 41px 45px;
+}
+
+.info-box__img {
+  margin-right: 80px;
+}
+
+.inside {
+  width: 492px;
+}
+
+.inside__title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333333;
+}
+
+.inside__describe {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin: 0px;
+  /* width: 492px; */
+}
+
+.inside__describe:nth-child(3) {
+  margin: 9px 0px 35px 0px;
+}
+
+.inside__links-gold {
+  display: inline-block;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 15px 35px 15px 65px;
+  background-color: #FFBD54;
+  border-radius: 3px;
+  margin-right: 22px;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.inside__links-gold::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/money.svg);
+  background-repeat: no-repeat;
+  width: 21.5px;
+  height: 21.5px;
+  top: 15px;
+  left: 30px;
+}
+
+.inside__links-gold:hover {
+  color: #FFBD54;
+  background-color: #333333;
+}
+
+.inside__links-gold:active {
+  opacity: 0.6;
+}
+
+.inside__links-black {
+  display: inline-block;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #333333;
+  border-radius: 3px;
+  padding: 15px 35px 15px 65px;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.inside__links-black:hover {
+  color: #333333;
+  background-color: #FFBD54;
+}
+
+.inside__links-black:active {
+  opacity: 0.6;
+}
+
+.inside__links-black::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/document.svg);
+  background-repeat: no-repeat;
+  width: 21.5px;
+  height: 21.5px;
+  top: 14px;
+  left: 33px;
+}
+
+.events {
+  background-image: url(../img/subscription-img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: calc(50%) calc(50% - 25px);
+}
+
+.events__inside {
+  padding-top: 255px;
+  padding-bottom: 300px;
+  padding-left: 180px;
+}
+
+.events__title {
+  display: inline-block;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+
+.events__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.events__label {
+  margin-right: 21px;
+}
+
+.events__input {
+  width: 355px;
+  padding: 18px 0px 12px 22px;
+  border: none;
+  outline: none;
+  background: #FFFFFF;
+  border-radius: 5px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333333;
+  border: 2px solid transparent;
+}
+
+.events__input:focus {
+  border: 2px solid #FFBD54;
+}
+
+.events__input::-webkit-input-placeholder {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  color: #949494;
+}
+
+.events__input:-ms-input-placeholder {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  color: #949494;
+}
+
+.events__input::-ms-input-placeholder {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  color: #949494;
+}
+
+.events__input::placeholder {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #949494;
+}
+
+.events__button {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: #333333;
+  border-radius: 3px;
+  padding: 15px 52px;
+  border: none;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.events__button:hover {
+  color: #333333;
+  background-color: #FFBD54;
+}
+
+.events__button:active {
+  opacity: 0.6;
+}
+
+.article__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 135px;
+}
+
+.article__title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333333;
+  margin: 0px auto 80px;
+}
+
+.article__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* align-items: center; */
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+}
+
+.article__item {
+  width: 307px;
+  list-style: none;
+  border: 1px solid #E4E4E2;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.article__item:nth-child(2) {
+  width: 640px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #F3F3F3;
+}
+
+.article__item:nth-child(3) {
+  width: 306px;
+}
+
+.article__item-inside {
+  padding: 20px 25px 35px 30px;
+}
+
+.article__time {
+  display: block;
+  text-align: right;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+}
+
+.article__heading {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 29px;
+  color: #333333;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.article__info {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin-top: 0px;
+  margin-bottom: 28px;
+}
+
+.article__link {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  text-decoration: none;
+  padding-left: 30px;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.article__link:hover {
+  color: #FFBD54;
+}
+
+.article__link:active {
+  color: #333333;
+  opacity: 0.8;
+}
+
+.article__link::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/pet.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+  left: -3px;
+  top: -1px;
+}
+
+.article__main-box {
+  padding: 35px 34px 40px 30px;
+}
+
+.article__span-case {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.article__span-link {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #3D9CEA;
+  text-decoration: none;
+}
+
+.article__span-link + .article__span-link {
+  margin-left: 8px;
+}
+
+.article__span-link:nth-child(3) {
+  margin-right: auto;
+}
+
+.connection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.connection__frame-case {
+  width: 462px;
+  height: 652px;
+}
+
+.connection__info-box {
+  width: 100%;
+  background-image: url(../img/connection-bg.png);
+  background-repeat: no-repeat;
+  background-color: #333333;
+  padding-top: 60px;
+  padding-bottom: 75px;
+  padding-left: 166px;
+}
+
+.connection__title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 62px;
+  color: #FFFFFF;
+  margin-top: 0px;
+  margin-bottom: 14px;
+}
+
+.connection__describe-case {
+  width: 335px;
+  margin-bottom: 29px;
+}
+
+.connection__describe {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin: 0px;
+}
+
+.connection__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.connection__label + .connection__label {
+  margin-top: 14px;
+}
+
+.connection__input {
+  width: 375px;
+  background-color: #fff;
+  padding: 16px 0px 13px 22px;
+  outline: none;
+  border: 2px solid transparent;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333333;
+}
+
+.connection__input:focus {
+  border: 2px solid #FFBD54;
+}
+
+.connection__input::-webkit-input-placeholder {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  color: #949494;
+}
+
+.connection__input:-ms-input-placeholder {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  color: #949494;
+}
+
+.connection__input::-ms-input-placeholder {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  color: #949494;
+}
+
+.connection__input::placeholder {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #949494;
+}
+
+.connection__text-aria {
+  width: 375px;
+  height: 165px;
+  resize: none;
+  outline: none;
+  padding: 16px 0px 13px 22px;
+  border: 2px solid transparent;
+}
+
+.connection__text-aria:focus {
+  border: 2px solid #FFBD54;
+}
+
+.connection__button {
+  width: 228px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding: 15px 50px;
+  border: none;
+  background-color: #FFBD54;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.connection__button:hover {
+  opacity: 0.8;
+}
+
+.connection__button:active {
+  opacity: 0.6;
+}
+
+.footer {
+  background-color: #F3F3F3;
+  padding: 25px 0px;
+}
+
+.footer__inside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px 0px;
+}
+
+.footer__logo-link {
+  margin-right: 66px;
+}
+
+.footer__logo-link:hover {
+  opacity: 0.8;
+}
+
+.footer__logo-link:active {
+  opacity: 0.6;
+}
+
+.footer__list {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer__item {
+  list-style: none;
+}
+
+.footer__list + .footer__list {
+  margin-left: 90px;
+}
+
+.footer__item + .footer__item {
+  margin-top: 16px;
+}
+
+.footer__link {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #333333;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.footer__link:hover {
+  color: #FFBD54;
+}
+
+.footer__link:active {
+  color: #333333;
+  opacity: 0.6;
+}
+
+.footer__time-case {
+  margin-left: 155px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 135px;
+}
+
+.footer__time {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.footer__time + .footer__time {
+  margin-top: 3px;
+}
+
+.footer__address {
+  width: 157px;
+  position: relative;
+  z-index: 1;
+  margin-right: auto;
+}
+
+.footer__address::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/house.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 14px;
+  height: 13px;
+  left: -22px;
+  top: 2px;
+}
+
+.footer__address-link {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333333;
+  text-decoration: none;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.footer__address-link:hover {
+  color: #FFBD54;
+}
+
+.footer__address-link:active {
+  color: #333333;
+  opacity: 0.6;
+}
+
+.numb-list {
+  margin: 0px;
+  padding: 0px;
+}
+
+.numb-list__item {
+  list-style: none;
+}
+
+.numb-list__item + .numb-list__item {
+  margin-top: 4px;
+}
+
+.numb-list__link {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #333333;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.numb-list__link:hover {
+  color: #FFBD54;
+}
+
+.numb-list__link:active {
+  color: #333333;
+  opacity: 0.6;
+}
+
+.footer__copy {
+  display: block;
+  text-align: right;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #5C5C5C;
+}
+/*# sourceMappingURL=main.css.map */

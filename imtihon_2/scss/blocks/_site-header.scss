@@ -1,0 +1,246 @@
+.site-header__first{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px 0px;
+ }
+ .address{
+    margin-right: 130px;
+    position: relative;
+    z-index: 1;
+ }
+ .address::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-image: url(../img/uy.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 14px;
+    height: 13px;
+    left: -22px;
+    top: 2px;
+ }
+ .address__link{
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    text-decoration: none;
+    transition: 0.2s ease;
+ }
+ .address__link:hover{
+    color: #FFBD54;
+ }
+ .address__link:active{
+    color: #333333;
+    opacity: 0.6;
+ }
+ .tel-list{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 120px;
+    position: relative;
+    z-index: 1;
+ }
+ .tel-list::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-image: url(../img/telephone.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 13px;
+    height: 13px;
+    left: -22px;
+    top: 2px;
+ }
+ .tel-list__item{
+    list-style: none;
+ }
+ .tel-list__item:nth-child(2){
+    margin: 0px 22px;
+    position: relative;
+    z-index: 1;
+ }
+ .tel-list__item:nth-child(2)::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-image: url(../img/ellepsi.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 4px;
+    height: 4px;
+    left: -12px;
+    top: 8px;
+ }
+ .tel-list__item:nth-child(2)::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-image: url(../img/ellepsi.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 4px;
+    height: 4px;
+    right: -10px;
+    top: 8px;
+ }
+ .tel-list__link{
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;   
+    color: #333333;
+    text-decoration: none;
+    transition: 0.2s ease;
+ }
+ .tel-list__link:hover{
+    color: #FFBD54;
+ }
+ .tel-list__link:active{
+    color: #333333;
+    opacity: 0.6;
+ }
+ .site-header__time-case{
+    position: relative;
+    z-index: 1;
+ }
+ .site-header__time-case::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-image: url(../img/kalkulator.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 13px;
+    height: 13px;
+    left: -20px;
+    top: 4px;
+ }
+ 
+ .site-header__time{
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;   
+    color: #333333;
+ }
+ .time-b{
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+ }
+ .site-header__time + .site-header__time{
+    margin-left: 17px;
+ }
+ .header__inner{
+    background-color: #fff;
+    border: 1px solid #F3F3F3;
+    padding: 20px 0px;
+ }
+ .header__inner-inside{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    z-index: 1;
+ }
+ .header__logo-link{
+    position: absolute;
+    z-index: 2;
+    left: calc(50% - 660px);
+    top: calc(50% - 45px);
+ }
+ .header__logo-link:hover{
+    opacity: 0.8;
+ }
+ .header__logo-link:active{
+    opacity: 0.6;
+ }
+ .list{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    margin-right: 195px;
+    padding: 0px;
+    position: relative;
+    z-index: 1;
+ }
+ .list::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-image: url(../img/fish.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    left: -30px;
+    top: -2px;
+ }
+ .list__item{
+    list-style: none;
+ }
+ .list__item + .list__item{
+    margin-left: 55px;
+ }
+ .list__link{
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    text-decoration: none;
+    transition: 0.2s ease;
+    border-bottom: 2px solid transparent;
+ }
+ .list__link:hover{
+    border-bottom: 4px solid rgb(244, 255, 173);
+ }
+ .list__link:active{
+    opacity: 0.6;
+ }
+ 
+ .header__question-link{
+    text-decoration: none;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+    color: #333333;
+    position: relative;
+    z-index: 1;
+    transition: 0.2s ease;
+    border-bottom: 4px solid transparent;
+ }
+ .header__question-link:hover{
+    border-bottom: 4px solid rgb(244, 255, 173);
+ }
+ .header__question-link:active{
+    opacity: 0.6;
+ }
+ .header__question-link::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-image: url(../img/pet.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    left: -28px;
+    top: -1px;
+ }

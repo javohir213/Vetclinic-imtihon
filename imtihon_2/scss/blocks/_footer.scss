@@ -1,0 +1,141 @@
+.footer{
+    background-color: #F3F3F3;
+    padding: 25px 0px;
+ }
+ .footer__inside{
+    display: flex;
+    padding: 30px 0px;
+ }
+ .footer__logo-link{
+    margin-right: 66px;
+ }
+ .footer__logo-link:hover{
+    opacity: 0.8;
+ }
+ .footer__logo-link:active{
+    opacity: 0.6;
+ }
+ .footer__list{
+    margin: 0px;
+    padding: 0px;
+ }
+ .footer__item{
+    list-style: none;
+ }
+ .footer__list + .footer__list{
+    margin-left: 90px;
+ }
+ .footer__item + .footer__item{
+    margin-top: 16px;
+ }
+ .footer__link{
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #333333;
+    transition: 0.2s ease;
+ }
+ .footer__link:hover{
+    color: #FFBD54;
+ }
+ .footer__link:active{
+    color: #333333;
+    opacity: 0.6;
+ }
+ .footer__time-case{
+    margin-left: 155px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 135px;
+ }
+ .footer__time{
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+ }
+ .footer__time + .footer__time{
+    margin-top: 3px;
+ }
+ .footer__address{
+    width: 157px;
+    position: relative;
+    z-index: 1;
+    margin-right: auto;
+ }
+ .footer__address::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-image: url(../img/house.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 14px;
+    height: 13px;
+    left: -22px;
+    top: 2px;
+ }
+ .footer__address-link{
+    
+       font-family: "Futura PT";
+       font-style: normal;
+       font-weight: 500;
+       font-size: 14px;
+       line-height: 18px;
+       display: flex;
+       align-items: center;
+       color: #333333;
+       text-decoration: none;
+       transition: 0.2s ease;
+ }
+ .footer__address-link:hover{
+    color: #FFBD54;
+ }
+ .footer__address-link:active{
+    color: #333333;
+    opacity: 0.6;
+ }
+ 
+ .numb-list{
+    margin: 0px;
+    padding: 0px;
+ }
+ .numb-list__item{
+    list-style: none;
+ }
+ .numb-list__item + .numb-list__item{
+    margin-top: 4px;
+ }
+ .numb-list__link{
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #333333;
+    transition: 0.2s ease;
+ }
+ .numb-list__link:hover{
+    color: #FFBD54;
+ }
+ .numb-list__link:active{
+    color: #333333;
+    opacity: 0.6;
+ }
+ .footer__copy{
+    display: block;
+    text-align: right;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    color: #5C5C5C;   
+ }

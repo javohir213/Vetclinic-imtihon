@@ -1,0 +1,108 @@
+.connection {
+   display: flex;
+}
+
+.connection__frame-case {
+   width: 462px;
+   height: 652px;
+}
+
+.connection__info-box{
+     width: 100%;
+      background-image: url(../img/connection-bg.png);
+      background-repeat: no-repeat;
+      background-color: #333333;
+      padding-top: 60px;
+      padding-bottom: 75px;
+      padding-left: 166px;
+
+   }
+   .connection__title{
+      font-family: "Futura PT";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 62px;
+      color: #FFFFFF;
+      margin-top: 0px;
+      margin-bottom: 14px;
+   }
+   .connection__describe-case{
+      width: 335px;
+      margin-bottom: 29px;
+   }
+   .connection__describe{
+      font-family: "Futura PT";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+      color: #949494;
+      margin: 0px;
+   }
+   .connection__form{
+      display: flex;
+      flex-direction: column;
+   }
+   .connection__label + .connection__label{
+      margin-top: 14px;
+   }
+   .connection__input{
+      width: 375px;
+      background-color: #fff;
+      padding: 16px 0px 13px 22px;
+      outline: none;
+      border: 2px solid transparent;
+      font-family: "Futura PT";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;   
+      color: #333333;
+   }
+   .connection__input:focus{
+      border: 2px solid #FFBD54;
+   }
+   .connection__input::placeholder{
+      font-family: "Futura PT";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 21px;
+      display: flex;
+      align-items: center;
+      color: #949494;
+   }
+   .connection__text-aria{
+      width: 375px;
+      height: 165px;
+      resize: none;
+      outline: none;
+      padding: 16px 0px 13px 22px;
+      border: 2px solid transparent;
+   }
+   .connection__text-aria:focus{
+      border: 2px solid #FFBD54;
+   }
+   .connection__button{
+      width: 228px;
+      font-family: "Futura PT";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21px;
+      color: #FFFFFF;
+      padding: 15px 50px;
+      border: none;
+      background-color: #FFBD54;
+      margin-top: 30px;
+      cursor: pointer;
+   }
+   .connection__button:hover{
+      opacity: 0.8;
+   }
+   .connection__button:active{
+      opacity: 0.6;
+   }

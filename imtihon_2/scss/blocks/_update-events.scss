@@ -1,0 +1,82 @@
+
+.events{
+   background-image: url(../img/subscription-img.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: calc(50% ) calc(50% - 25px);
+}
+.events__inside{
+   padding-top: 255px;
+   padding-bottom: 300px;
+   padding-left: 180px;
+}
+.events__title{
+   display: inline-block;
+   font-family: "Futura PT";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 48px;
+   line-height: 54px;
+   display: flex;
+   align-items: center;
+   color: #FFFFFF;
+   margin-top: 0px;
+   margin-bottom: 32px;
+}
+
+.events__form{
+   display: flex;
+}
+.events__label{
+   margin-right: 21px;
+}
+.events__input{
+   width: 355px;
+   padding: 18px 0px 12px 22px;
+   border: none;
+   outline: none;
+   background: #FFFFFF;
+   border-radius: 5px;
+   font-family: "Futura PT";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 20px;
+   display: flex;
+   align-items: center;
+   color: #333333;
+   border: 2px solid transparent;
+}
+.events__input:focus{
+   border: 2px solid #FFBD54;
+}
+.events__input::placeholder{
+   font-family: "Futura PT";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 20px; 
+   display: flex;
+   align-items: center;
+   color: #949494;
+}
+.events__button{
+   font-family: "Futura PT";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color: #FFFFFF;
+   background: #333333;
+   border-radius: 3px;
+   padding: 15px 52px;
+   border: none;
+   transition: 0.2s ease;
+}
+.events__button:hover{
+   color: #333333;
+   background-color: #FFBD54;
+}
+.events__button:active{
+   opacity: 0.6;
+}

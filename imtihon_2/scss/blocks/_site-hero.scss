@@ -1,0 +1,62 @@
+.site-hero{
+   background-image: url(../img/hero-bg1.png), url(../img/hero-bg2.png);
+   background-repeat: no-repeat;
+   background-position: calc(50% - 530px) calc(50% - 70px),  calc(50% + 690px) calc(50% + 200px);
+   padding: 155px 0px 310px 0px;
+}
+.site-hero__inside{
+   display: flex;
+   flex-direction: column;
+}
+.site-hero__inside-case{
+   margin-left: auto;
+}
+.site-hero__title-case{
+   width: 610px;
+   margin-bottom: 30px;
+}
+.site-hero__title{font-family: "Futura PT";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 70px;
+   line-height: 64px;
+   color: #333333;
+   margin: 0px;
+}
+.site-hero__title-blue{
+   color: #78C0DE;
+}
+.site-hero__description-case{
+   width: 495px;
+   margin-bottom: 38px;
+}
+.site-hero__description{
+   font-family: "Futura PT";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 21px;
+   margin: 0px;
+   color: #949494;
+}
+.site-hero__link{
+   display: inline-block;
+   background-color: #333333;
+   border-radius: 3px;
+   font-family: "Futura PT";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   text-decoration: none;
+   color: #FFFFFF;
+   padding: 15px 48px;
+   transition: 0.2s ease;
+}
+.site-hero__link:hover{
+   color: #333333;
+   background-color: #FFBD54;
+}
+.site-hero__link:active{
+   opacity: 0.6;
+}
